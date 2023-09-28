@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod o+rwx hellio
+chmod 007 hello
