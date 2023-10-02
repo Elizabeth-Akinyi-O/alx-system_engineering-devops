@@ -1,2 +1,2 @@
 #!/bin/bash
-file -empty |  sort | uniq -u
+find -empty | rev | cut -d -f1 | rev
