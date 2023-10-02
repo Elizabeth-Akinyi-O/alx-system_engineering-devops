@@ -1,0 +1,2 @@
+#!/bin/bash
+file -empty |  sort | uniq -u
