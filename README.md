@@ -1,2 +1,6 @@
 #!/bin/bash
-New repository for the shell basics project.
+Projects:
+Shell, basics.
+Shell, permissions. 
+Shell, I/O Redirections and Filters 
+Shell, init files, variables and expansions.
