@@ -5,6 +5,6 @@
 #     in a list format
 # You must use awk (You are not allowed to use while, for, until and cut)
 
-# print $1 " " $9 - awk program representing the 1st and ninth fields(columns) of each input line. Prints the first and ninth fields of each input line separated by a space.
-# 
+# print $1 " " $9 - awk program representing the 1st and ninth fields(columns) of each input line.
+# Prints the first and ninth fields of each input line separated by a space.
 awk '{print $1 " " $9}' apache-access.log
