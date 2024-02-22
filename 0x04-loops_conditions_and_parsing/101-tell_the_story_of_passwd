@@ -2,7 +2,7 @@
 # Displays the content of the file /etc/passwd, using the while loop + IFS
 #   Parses the "/etc/passwd" file, extracts specific fields for each user, assigns them to variables, and then prints out formatted info about each user
 
-#method 1
+# method 1:
 #while IFS=':' read -r username password uid gid info home shell;
 #do
 #  echo "The user $username is part of the $gid gang,"\
@@ -11,6 +11,7 @@
 #  "more info about the user here: $info"
 #done < "/etc/passwd"
 
+# method 2:
 contentFile="/etc/passwd" #contentFile - contains the path of the "/etc/passwd" file
 f1="" # fields - variables to store different fields extracted from each line of the "/etc/passwd" file
 f2=""
