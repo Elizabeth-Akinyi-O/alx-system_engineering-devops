@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Displays To infinity and beyond indefinitely
+#   Requirements:
+#     In between each iteration of the loop, add a sleep 2
+
+#method 1:
+#iterator=0
+#while [ $iterator -eq 0 ]
+#do
+#    echo "To infinity and beyond"
+#    sleep 2
+#done
+
+method 2:
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
