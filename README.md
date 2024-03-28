@@ -9,3 +9,4 @@ Projects:
 - 0x06. Regular expression
 - 0x07. Networking basics #0
 - 0x08. Networking basics #1
+- 0x09. Web infrastructure design
