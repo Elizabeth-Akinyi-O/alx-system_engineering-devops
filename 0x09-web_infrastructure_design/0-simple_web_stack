@@ -1,1 +1,38 @@
+Simple web stack - Image link:
+
 https://drive.google.com/file/d/1Txy_D_PaF52cMMssTBoeNWMr-U6uDqmo/view?usp=drive_link
+
+
+Infrastructure:
+
+Server: Is a type of computer that shares information with other computers. It can be a computer, software program or hard drive. It's ultimate function is to receive, store and share data.
+
+
+Domain Name Role: It helps to identify internet resources such as computers and networks with a text-based label that is easier to memorize compared to numerical adresses (IP addresses).
+
+
+Type of DNS record www is in www.foobar.com: It is a `cname` (canonical name) in the DNS record that maps an alias name to a true or canonical domain name.
+
+
+Role of the web server: It is to store, process and deliver requested information or webpages to end users.
+
+
+Role of the application server: It acts as the host or container for the user's business logic while facilitating access to and performance of the business application.
+
+
+Role of the database: It is used to store, retrieve and update information / data.
+
+
+What is the server using to communicate with the computer of the user requesting the website: The HTTP protocol.
+
+
+
+ISSUES:
+
+SPOF (Single Point Of Failure): The infrastructure has one server which contains only one web server, application server and database. If the SPOF fails...the entire system stops works.
+
+
+Downtime when maintenance needed (like deploying new code web server needs to be restarted): Since the server depends on one code base, the downtime period is likely to be longer that it should be. This leads to loss of traffic and a bad user experince for the users when they are not able to access the website and it's contents.
+
+
+Cannot scale if too much incoming traffic: The domain name points directly to the server and does not contain a load balancer. This poses an issue to the volume of users trying to access the website's content, and may set a limit to the number of users the website can accomodate.
