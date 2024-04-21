@@ -11,3 +11,4 @@ Projects:
 - 0x08. Networking basics #1
 - 0x09. Web infrastructure design
 - 0x0A. Configuration management
+- 0x0B. SSH
