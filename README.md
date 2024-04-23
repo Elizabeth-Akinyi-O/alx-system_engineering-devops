@@ -12,3 +12,4 @@ Projects:
 - 0x09. Web infrastructure design
 - 0x0A. Configuration management
 - 0x0B. SSH
+- 0x0C. Web server
