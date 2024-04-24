@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+# Configure the Nginx server to have a custom 404 page that contains the string "Ceci n'est pas une page"
+# The page must return an HTTP 404 error code
+# Using 3-redirection, write 4-not_found_page_404 so that it configures
+#    a brand new Ubuntu machine to the requirements asked in this task
+
+echo -e "Installing and Configuring Nginx\n"
+sudo apt-get update -y && \
+         sudo apt-get install nginx -y
+
+# Starting Nginx
+sudo service nginx start
+
+# Allowing Nginx on firewall
+sudo ufw allow 'Nginx HTTP'
+
+# Giving user ownership
+sudo chown -R "$USER":"$USER" /var/www/html
+sudo chmod -R 755 /var/www
+
+# Backing up default index
+cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.bckp
+
+# Creating new index
+echo -e "Hello World!" | dd status=none of=/var/www/html/index.nginx-debian.html
+
+# Setting up /redirect_me to a different page
+sudo sed -i '24i\      rewrite ^/redirect_me https://www.youtube.com/watch?v=vYqLz3GVN4Q&t=295s permanent;' /etc/nginx/sites-available/default
+
+# Setting up an error page - 404
+echo "Ceci n'est pas une page" >> /var/www/html/error_404.html
+sudo sed -i '25i\      error_page 404 /error_404.html;' /etc/nginx/sites-available/default
+
+# Restarting nginx
+sudo service nginx restart
+
+echo -e "\nProcess Complete. ✅\n"
