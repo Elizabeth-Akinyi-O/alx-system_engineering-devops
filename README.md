@@ -14,4 +14,5 @@ Projects:
 - 0x0B. SSH
 - 0x0C. Web server
 - 0x0D. Web stack debugging #0
+- 0x0E. Web stack debugging #1
 - 0x0F. Load balancer
