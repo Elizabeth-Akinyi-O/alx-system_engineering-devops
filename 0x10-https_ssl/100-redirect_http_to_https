@@ -47,5 +47,5 @@ frontend lizzieakinyi-frontend-https
 
 backend lizzieakinyi-backend
         balance roundrobin
-        server 151666-web-01 54.234.101.144:80 check
-        server 151666-web-02 54.89.28.233:80 check
+        server 531518-web-01 54.234.101.144:80 check
+        server 531518-web-02 54.89.28.233:80 check
