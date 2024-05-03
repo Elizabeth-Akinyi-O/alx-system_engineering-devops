@@ -29,14 +29,14 @@ defaults
   timeout server 15s
   timeout http-request 10s
 
-frontend clickviral-tech-frontend
+frontend lizzieakinyi-tech-frontend
     bind *:80
-    default_backend clickviral-tech-backend
+    default_backend lizzieakinyi-tech-backend
 
-backend clickviral-tech-backend
+backend lizzieakinyi-tech-backend
     balance roundrobin
-    server 151666-web-01 100.25.190.21:80 check
-    server 151666-web-02 54.160.77.90:80 check
+    server 151666-web-01 54.234.101.144:80 check
+    server 151666-web-02 54.89.28.233:80 check
 "
 
 # Ignore SC2154 for shellcheck
