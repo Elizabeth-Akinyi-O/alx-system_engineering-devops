@@ -14,6 +14,7 @@ Projects:
 - 0x11. What happens when you type google.com in your browser and press Enter
 - 0x12. Web stack debugging #2
 - 0x13. Firewall
+- 0x14. MySQL
 - 0x0A. Configuration management
 - 0x0B. SSH
 - 0x0C. Web server
