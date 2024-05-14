@@ -1,5 +1,4 @@
-![Uploading image.png…]()
-
+![0x14-mysql](https://github.com/Elizabeth-Akinyi-O/alx-system_engineering-devops/assets/145594149/c718f8b7-dde8-4edc-8d8c-9883a638faf2)
 
 Learning Objectives:
 
