@@ -16,6 +16,7 @@ Projects:
 - 0x13. Firewall
 - 0x14. MySQL
 - 0x15. API
+- 0x16. API advanced
 - 0x0A. Configuration management
 - 0x0B. SSH
 - 0x0C. Web server
