@@ -1,3 +1,7 @@
+
+![what happens](https://github.com/Elizabeth-Akinyi-O/alx-system_engineering-devops/assets/145594149/e31e59f7-30cc-45c8-a08a-8b9fd44fbb1b)
+
+
 Requirements:
 
 1. Write a blog post explaining what happens when you type https://www.google.com in your browser and press Enter.
