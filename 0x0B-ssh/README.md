@@ -1,3 +1,7 @@
+
+![ssh](https://github.com/Elizabeth-Akinyi-O/alx-system_engineering-devops/assets/145594149/ea8f35c9-964a-4015-9880-18c4473447c3)
+
+
 Learning Objectives:
 
 - What is a server
