@@ -1,3 +1,7 @@
+
+![networking 0](https://github.com/Elizabeth-Akinyi-O/alx-system_engineering-devops/assets/145594149/958702b9-9bf5-48c2-968d-72794ecde827)
+
+
 Learning Objectives:
 
 OSI Model
