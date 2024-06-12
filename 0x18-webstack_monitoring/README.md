@@ -1,3 +1,8 @@
+
+![web monitoring](https://github.com/Elizabeth-Akinyi-O/alx-system_engineering-devops/assets/145594149/2299d118-f33f-4b10-bea8-f45e54c3e0f8)
+
+
+
 Learning Objectives:
 
 - Why is monitoring needed
