@@ -1,3 +1,7 @@
+
+![load balancer](https://github.com/Elizabeth-Akinyi-O/alx-system_engineering-devops/assets/145594149/ca0a1023-fb09-4c33-844e-129533b09977)
+
+
 You have been given 2 additional servers:
 
 gc-[STUDENT_ID]-web-02-XXXXXXXXXX
