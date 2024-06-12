@@ -1,3 +1,7 @@
+
+![config mgnt](https://github.com/Elizabeth-Akinyi-O/alx-system_engineering-devops/assets/145594149/4fde0cae-4fc7-4d1a-ade6-5baed85377d6)
+
+
 Learning Objetive:
 
 - Intro to Configuration Management
