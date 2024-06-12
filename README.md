@@ -26,3 +26,5 @@ Projects:
 - 0x0D. Web stack debugging #0
 - 0x0E. Web stack debugging #1
 - 0x0F. Load balancer
+- 0x1A. Application server
+- 0x1B. Web stack debugging #4
